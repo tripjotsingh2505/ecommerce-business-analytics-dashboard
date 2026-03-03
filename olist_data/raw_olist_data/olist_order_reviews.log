@@ -1,0 +1,180 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu Jan 1 20:12:14 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   olist_order_reviews.ctl
+Data File:      C:\Users\pc\Desktop\olist_data\olist_order_reviews_dataset.csv
+  Bad File:     olist_order_reviews_dataset.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table OLIST_ORDER_REVIEWS, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REVIEW_ID                           FIRST     *   ,  O(") CHARACTER            
+ORDER_ID                             NEXT     *   ,  O(") CHARACTER            
+REVIEW_SCORE                         NEXT     *   ,  O(") CHARACTER            
+REVIEW_COMMENT_TITLE                 NEXT     *   ,  O(") CHARACTER            
+REVIEW_COMMENT_MESSAGE               NEXT     *   ,  O(") CHARACTER            
+REVIEW_CREATION_DATE                 NEXT     *   ,  O(") DATETIME YYYY-MM-DD HH24:MI:SS
+REVIEW_ANSWER_TIMESTAMP              NEXT     *   ,  O(") DATETIME YYYY-MM-DD HH24:MI:SS
+
+Record 14: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 15: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 30: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 57: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 68: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 70: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 78: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 79: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 110: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 111: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 114: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 115: Discarded - all columns null.
+Record 128: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 132: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 138: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 140: Discarded - all columns null.
+Record 142: Discarded - all columns null.
+Record 188: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 192: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 231: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 232: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 261: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 1: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 32: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+ORA-12899: value too large for column "SYSTEM"."OLIST_ORDER_REVIEWS"."REVIEW_ID" (actual: 58, maximum: 50)
+
+Record 33: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 58: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+ORA-12899: value too large for column "SYSTEM"."OLIST_ORDER_REVIEWS"."REVIEW_ID" (actual: 51, maximum: 50)
+
+Record 116: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 129: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+ORA-12899: value too large for column "SYSTEM"."OLIST_ORDER_REVIEWS"."REVIEW_ID" (actual: 54, maximum: 50)
+
+Record 131: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+ORA-12899: value too large for column "SYSTEM"."OLIST_ORDER_REVIEWS"."REVIEW_ID" (actual: 63, maximum: 50)
+
+Record 133: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 143: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 189: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 193: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 262: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 357: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 359: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 360: Discarded - all columns null.
+Record 374: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 402: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 430: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 443: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 444: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 455: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 458: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 509: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 520: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 521: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 530: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 532: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_COMMENT_MESSAGE.
+second enclosure string not present
+Record 533: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_ID.
+second enclosure string not present
+Record 358: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 361: Rejected - Error on table OLIST_ORDER_REVIEWS, column ORDER_ID.
+ORA-12899: value too large for column "SYSTEM"."OLIST_ORDER_REVIEWS"."ORDER_ID" (actual: 123, maximum: 50)
+
+Record 375: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 403: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+Record 431: Rejected - Error on table OLIST_ORDER_REVIEWS, column REVIEW_SCORE.
+ORA-01722: invalid number
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table OLIST_ORDER_REVIEWS:
+  386 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  4 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 451500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           538
+Total logical records rejected:        51
+Total logical records discarded:        4
+
+Run began on Thu Jan 01 20:12:14 2026
+Run ended on Thu Jan 01 20:12:15 2026
+
+Elapsed time was:     00:00:00.26
+CPU time was:         00:00:00.06

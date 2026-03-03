@@ -1,0 +1,56 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu Jan 1 20:17:10 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   olist_geolocation.ctl
+Data File:      C:\Users\pc\Desktop\olist_data\olist_geolocation_dataset.csv
+  Bad File:     olist_geolocation_dataset.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table OLIST_GEOLOCATION, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GEOLOCATION_ZIP_CODE_PREFIX         FIRST     *   ,  O(") CHARACTER            
+GEOLOCATION_LAT                      NEXT     *   ,  O(") CHARACTER            
+GEOLOCATION_LNG                      NEXT     *   ,  O(") CHARACTER            
+GEOLOCATION_CITY                     NEXT     *   ,  O(") CHARACTER            
+GEOLOCATION_STATE                    NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table OLIST_GEOLOCATION, column GEOLOCATION_ZIP_CODE_PREFIX.
+ORA-01722: invalid number
+
+
+Table OLIST_GEOLOCATION:
+  1000163 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 322500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       1000164
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Thu Jan 01 20:17:10 2026
+Run ended on Thu Jan 01 20:17:15 2026
+
+Elapsed time was:     00:00:05.86
+CPU time was:         00:00:01.38

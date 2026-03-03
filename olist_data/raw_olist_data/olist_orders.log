@@ -1,0 +1,36 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu Jan 1 19:19:38 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   olist_orders.ctl
+Data File:      C:\Users\pc\Desktop\olist_data\olist_orders_dataset.csv
+  Bad File:     olist_orders_dataset.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table OLIST_ORDERS, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ORDER_ID                            FIRST     *   ,  O(") CHARACTER            
+CUSTOMER_ID                          NEXT     *   ,  O(") CHARACTER            
+ORDER_STATUS                         NEXT     *   ,  O(") CHARACTER            
+ORDER_PURCHASE_TIMESTAMP             NEXT     *   ,  O(") DATETIME YYYY-MM-DD HH24:MI:SS
+ORDER_APPROVED_AT                    NEXT     *   ,  O(") DATETIME YYYY-MM-DD HH24:MI:SS
+ORDER_DELIVERED_CARRIER_DATE         NEXT     *   ,  O(") DATETIME YYYY-MM-DD HH24:MI:SS
+ORDER_DELIVERED_CUSTOMER_DATE        NEXT     *   ,  O(") DATETIME YYYY-MM-DD HH24:MI:SS
+ORDER_ESTIMATED_DELIVERY_DATE        NEXT     *   ,  O(") DATETIME YYYY-MM-DD HH24:MI:SS
+
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table OLIST_ORDERS
