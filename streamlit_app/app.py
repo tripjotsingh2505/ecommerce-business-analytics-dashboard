@@ -45,6 +45,7 @@ col2.metric("Average Review Score", round(df['review_score'].mean(), 2))
 col3.metric("Avg Delivery Delay (days)", round(df['delivery_delay'].mean(), 2))
 col4.metric("👥 Unique Customers", df['customer_unique_id'].nunique())
 
+
 # Q1. MONTHLY REVENUE TREND OVER TIME?
 st.subheader("📈 Monthly Revenue Trend Over Time")
 
@@ -253,7 +254,6 @@ st.info("""
 • A small number of payment methods account for the majority of transaction value.  
 • Low-contribution payment types may be creating unnecessary checkout complexity without proportional revenue impact.
 """)
-
 
 
 # Q7. NEW VS REPEAT CUSTOMER RATIO?
@@ -501,6 +501,7 @@ st.info("""
 • Retention strategies should prioritize high-value customer segments.
 """)
 # We analyzed customer contribution using cumulative revenue analysis and found that a small percentage of customers generate a majority of total revenue, indicating a strong Pareto effect. This insight helps prioritize retention and personalized engagement strategies.
+
 
 # Q11. ON-TIME VS DELAYED DELIVERY PERCENTAGE?
 # delivery status column -->
@@ -792,7 +793,6 @@ st.success(
 )
 
 
-
 # Q16. AVERAGE REVIEW SCORE OVERALL?
 st.subheader("⭐ Average Review Score Overall")
 # calculating average rating -->
@@ -1016,16 +1016,4 @@ st.success(
     ✔ Provide logistics support to underperforming sellers  
     ✔ Remove sellers who consistently breach SLA agreements
     """
-)
-
-
-
-
-
-
-
-st.sidebar.title("📊 Dashboard Sections")
-section = st.sidebar.radio(
-    "Go to",
-    ["Overview", "Revenue Analysis", "Delivery Performance", "Customer Satisfaction"]
 )
