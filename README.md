@@ -1,125 +1,170 @@
-# 📦 E-Commerce Business Analytics Dashboard
+# 📊 E-commerce Business Analytics Dashboard
 
-An end-to-end business intelligence dashboard built using Python and Streamlit to analyze revenue trends, customer behavior, delivery performance, and customer satisfaction metrics.
+A **data analytics dashboard** built to analyze **e-commerce sales performance, customer behavior, and product trends**.
 
-🔗 **Live Dashboard:**
-https://ecommerce-business-analytics-dashboard.onrender.com/
+This project demonstrates how **SQL, Python, and Streamlit** can be used to transform raw business data into **interactive insights and visual dashboards** for decision making.
 
+The system allows users to explore **sales metrics, revenue patterns, product performance, and customer insights** through an interactive interface.
 
-## 📌 Project Overview
+---
 
-This project analyzes an e-commerce dataset to extract actionable business insights and visualize key performance indicators (KPIs).
+# 🚀 Live Demo
 
-The dashboard enables decision-makers to monitor revenue, customer retention, delivery efficiency, and review performance in an interactive way.
+Click below to open the deployed application:
 
+🔗 **[Open Live Dashboard](https://ecommerce-business-analytics-dashboard.onrender.com/)**
 
-## 🚀 Features
+---
 
-### 💰 Revenue Analysis
+# 📊 Project Overview
 
-* Monthly Revenue Trend
-* Top 10 Product Categories by Revenue
-* Revenue concentration analysis (Pareto insight)
+Businesses generate large amounts of transactional data every day.
+However, raw data alone is difficult to interpret without proper analysis.
 
-### 👥 Customer Analysis
+This project builds an **interactive analytics dashboard** that helps understand:
 
-* New vs Repeat Customers
-* Customer segmentation
-* Retention opportunity insights
+* overall sales performance
+* customer purchasing behavior
+* product demand patterns
+* revenue distribution
 
-### 🚚 Delivery Performance
+The dashboard processes the dataset and displays **visual insights that help businesses make better strategic decisions**.
 
-* On-time vs Delayed Orders
-* Delivery delay calculation (in days)
-* Operational KPI monitoring
+---
 
-### ⭐ Reviews & Satisfaction
+# ⚙️ Features
 
-* Review score distribution
-* Average rating tracking
-* Correlation between delivery delays and low ratings
+✔ Interactive **Streamlit Dashboard**
+✔ Real-time **data visualization**
+✔ **Sales and Revenue analysis**
+✔ **Top-selling product identification**
+✔ **Customer purchase behavior insights**
+✔ Clean and user-friendly **analytics interface**
 
+---
 
-## 🛠 Tech Stack
+# 📈 Dashboard Insights
+
+The dashboard provides insights such as:
+
+### Sales Analysis
+
+* Total sales revenue
+* Sales distribution across products
+* Sales trends over time
+
+### Product Performance
+
+* Top-selling products
+* Product demand analysis
+* Category-wise sales performance
+
+### Customer Insights
+
+* Customer purchase frequency
+* Popular products among customers
+* Sales contribution by customers
+
+These insights help businesses **identify growth opportunities and optimize their strategies**.
+
+---
+
+# 🛠️ Technology Stack
 
 * **Python**
+* **Streamlit**
+* **SQL**
 * **Pandas**
 * **NumPy**
-* **Matplotlib**
-* **Seaborn**
-* **Streamlit**
-* **Render (Deployment)**
+* **Matplotlib / Plotly**
 
+---
 
-## 📊 Key Business Insights
-
-* Revenue shows scalable growth with visible seasonal trends.
-* 80/20 rule observed in category revenue contribution.
-* Delivery delays significantly impact customer satisfaction.
-* Repeat customers represent a key retention opportunity.
-* On-time delivery is a critical operational KPI.
-
-
-## 🧠 Skills Demonstrated
-
-* Data Cleaning & Transformation
-* Feature Engineering (Delivery Delay Calculation)
-* Exploratory Data Analysis (EDA)
-* Business KPI Design
-* Data Visualization
-* Interactive Dashboard Development
-* Cloud Deployment
-
-
-## 📂 Project Structure
+# 📁 Project Structure
 
 ```
-ecommerce-dashboard/
+ecommerce-business-analytics-dashboard
 │
 ├── app.py
-├── olist_master_cleaned.csv
+├── requirements.txt
+├── dataset.csv
 ├── README.md
-└── requirements.txt
+├── dashboard.png
 ```
 
+---
 
-## ⚙️ Installation & Run Locally
+# 💻 Installation
 
-1. Clone the repository:
+Clone the repository:
 
 ```
-git clone https://github.com/yourusername/ecommerce-dashboard.git
+git clone https://github.com/tripjotsingh2505/ecommerce-business-analytics-dashboard.git
+cd ecommerce-business-analytics-dashboard
 ```
 
-2. Install dependencies:
+Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-3. Run the app:
+Run the application:
 
 ```
 streamlit run app.py
 ```
 
+---
 
-## 🌐 Deployment
+# 🌐 Deployment
 
-The application is deployed using **Render** for public access.
+This project can be deployed using:
 
+* **Streamlit Community Cloud**
+* **Render** *(used for this project)*
+* **Heroku**
 
-## 🎯 Future Improvements
+Steps:
 
-* Advanced filtering (Date, State, Category)
-* Customer Lifetime Value (CLV) calculation
-* Interactive Plotly visualizations
-* Sales forecasting model integration
-* Authentication-based dashboard access
+1. Push the project to GitHub
+2. Connect the repository to Render or Streamlit Cloud
+3. Deploy `app.py`
+4. Generate a public dashboard link
 
+---
 
-## 👤 Author
+# 📷 Dashboard Preview
 
-Tripjot Singh
-Aspiring Data Analyst
-LinkedIn: www.linkedin.com/in/tripjot-singh-7a75a0284
+![Dashboard Screenshot](dashboard.png)
+
+---
+
+# 🎯 Learning Outcomes
+
+This project demonstrates:
+
+* **End-to-End Data Analytics Workflow**
+* Data cleaning and transformation using **Python**
+* Performing **SQL-based business queries**
+* Building **interactive dashboards with Streamlit**
+* Deploying **data analytics applications online**
+
+---
+
+# 👨‍💻 Author
+
+**Tripjot Singh**
+
+Data Analytics | Data Science | Machine Learning Enthusiast
+
+GitHub:
+https://github.com/tripjotsingh2505
+
+---
+
+# 📜 License
+
+This project is created for **educational and learning purposes**.
+
+Feel free to use and modify it.
