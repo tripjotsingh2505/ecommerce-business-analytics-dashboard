@@ -2,9 +2,9 @@
 ### Transforming Raw Sales Data into Actionable Business Intelligence
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_Dashboard-blue?style=for-the-badge)](https://ecommerce-business-analytics-dashboard.onrender.com/)
-[![Python](https://img.shields.io/badge/Python-3.x-green?style=flat-square&logo=python)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=flat-square&logo=streamlit)](https://streamlit.io)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](https://github.com/tripjotsingh2505/ecommerce-business-analytics-dashboard)
+[![Python](https://img.shields.io/badge/Python-3.x-green?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tripjotsingh2505/ecommerce-business-analytics-dashboard)
 
 ---
 
@@ -36,47 +36,11 @@ Built using **Python, SQL, Pandas, and Streamlit**, this project takes raw trans
 
 ---
 
-## 📷 Dashboard Previews
+## 📷 Dashboard Preview
 
-### 📈 Monthly Revenue Trend
-> Revenue shows a clear upward trajectory from 2016 to 2018, with seasonal spikes indicating strong promotional periods.
+![E-Commerce Business Analytics Dashboard](dashboard.png)
 
-![Monthly Revenue Trend](monthly_revenue_trend.jpg)
-
----
-
-### 🏆 Top 10 Product Categories by Revenue
-> `bed_bath_table`, `health_beauty`, and `computers_accessories` are the top 3 revenue-generating categories — reflecting a clear Pareto (80/20) distribution.
-
-![Top Product Categories by Revenue](top_product_categories.jpg)
-
----
-
-### 👥 Customer Revenue Contribution — Pareto Analysis
-> The top ~40,000 customers contribute 80% of total revenue, highlighting the importance of targeting and retaining high-value customers.
-
-![Customer Pareto Analysis](customer_pareto_analysis.jpg)
-
----
-
-### ⭐ Review Score Distribution
-> Over 65,000 customers rated the platform 5 stars — a strong indicator of customer satisfaction, though 1-star reviews reveal areas for improvement.
-
-![Review Score Distribution](review_score_distribution.jpg)
-
----
-
-### ⚠️ Seller Delay Analysis — Top 10 Delayed Sellers
-> Identifies the top 10 sellers responsible for the highest number of delayed orders to support seller accountability and platform quality control.
-
-![Top 10 Sellers by Delayed Orders](seller_delayed_orders.jpg)
-
----
-
-### 🧠 Seller Insights & Business Recommendations
-> The highest-delay seller had 197 delays with an average delay of 11.45 days — the dashboard surfaces actionable recommendations like seller scorecards and SLA enforcement.
-
-![Seller Delay Insights and Recommendations](seller_delays_insights.jpg)
+> 🔗 For the full interactive experience — [**Open Live Dashboard**](https://ecommerce-business-analytics-dashboard.onrender.com/)
 
 ---
 
@@ -114,12 +78,7 @@ ecommerce-business-analytics-dashboard/
 ├── app.py                          # Main Streamlit application
 ├── dataset.csv                     # E-commerce transactional dataset
 ├── requirements.txt                # Project dependencies
-├── monthly_revenue_trend.jpg       # Dashboard preview
-├── top_product_categories.jpg      # Dashboard preview
-├── customer_pareto_analysis.jpg    # Dashboard preview
-├── review_score_distribution.jpg   # Dashboard preview
-├── seller_delayed_orders.jpg       # Dashboard preview
-├── seller_delays_insights.jpg      # Dashboard preview
+├── dashboard.png                   # Dashboard preview screenshot
 └── README.md                       # Project documentation
 ```
 
